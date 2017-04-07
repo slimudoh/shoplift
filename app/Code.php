@@ -9,5 +9,6 @@ class Code extends Model
     //
     public function user() {
         return $this->belongsTo('App\User');
+        $test="hh";
     }
 }
