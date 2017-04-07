@@ -41,6 +41,8 @@ window.onclick = function() {
     }
 } */
 
+////////////////// testing github
+
 onresize = onload = function() {
                     var videoDiv = document.getElementById("video-div");
                     var videoBox = document.getElementById("video");
