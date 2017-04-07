@@ -16,6 +16,7 @@ class CartController extends Controller
      */
     public function index()
     {
+        $name = "hello";
         //$lesson_name = str_replace('-',' ',$lesson_name);
         $lesson = \DB::table('lessons')->where('lesson_name', 'foundation')->get();
         $cart = Session::get('cart');
