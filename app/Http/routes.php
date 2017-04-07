@@ -21,7 +21,7 @@ Route::get('/foundation/{lesson_name}',['as'=>'lessons.show','uses'=>'LessonCont
 Route::get('/skills/{lesson_name}',['as'=>'lessons.show','uses'=>'LessonController@show']);
 Route::get('/professional/{lesson_name}',['as'=>'lessons.show','uses'=>'LessonController@show']);
 Route::get('/cart',['as'=>'cart.index','uses'=>'CartController@index']);
-
+//ff
 //    $data = file_get_contents(ZERCOMSERVERURL.'/getCat.php');
 //
 //    $data = json_decode($data);
