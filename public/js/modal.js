@@ -24,6 +24,7 @@ window.onclick = function() {
         }
     }
 }
+//comment test
 
 /* window.onclick = function() {
     var userDiv = document.getElementById('user');    
@@ -40,6 +41,8 @@ window.onclick = function() {
         }
     }
 } */
+
+////////////////// testing github
 
 onresize = onload = function() {
                     var videoDiv = document.getElementById("video-div");
