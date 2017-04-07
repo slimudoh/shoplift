@@ -24,6 +24,7 @@ window.onclick = function() {
         }
     }
 }
+//comment test
 
 /* window.onclick = function() {
     var userDiv = document.getElementById('user');    
